@@ -5,7 +5,6 @@ export async function renderProductsLis() {
     try {
         const data = await fetchProductsList()
         const listHTML = generateListHTML(data)
-        console.log(listHTML);
 
         document.getElementById('list-container')!.innerHTML = listHTML
     } catch (error) {
