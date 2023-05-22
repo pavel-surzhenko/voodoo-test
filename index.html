@@ -21,7 +21,7 @@
             crossorigin
         />
         <link
-            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@700&display=swap"
             rel="stylesheet"
         />
         <meta
@@ -31,7 +31,7 @@
         <title>VooDoo test</title>
     </head>
     <body class="flex flex-col min-h-screen">
-        <header class="border-b-black border-b mb-[100px]">
+        <header class="border-b-black border-b mb-[100px] bg-LightSand">
             <div class="py-[48px] px-[62px]">
                 <div class="flex justify-between">
                     <div class="flex gap-3 items-start text-5xl font-bold">
@@ -53,13 +53,40 @@
                 </div>
             </div>
         </header>
-        <main class="max-w-7xl mx-auto">main</main>
-        <footer class="border-t border-black px-[120px] py-[84px] mt-auto">
-            <img
-                src="/Logomark.svg"
-                alt="logo"
-                class="w-20 h-20"
-            />
+        <main class="max-w-7xl bg-background bg-LightSand flex-grow mx-auto">
+            main
+        </main>
+        <footer
+            class="border-t border-black px-[120px] py-[84px] mt-auto bg-white"
+        >
+            <div
+                class="flex gap-6 font-space font-bold text-sm justify-between"
+            >
+                <div>
+                    <img
+                        src="/Logomark.svg"
+                        alt="logo"
+                        class="w-20 h-20"
+                    />
+                </div>
+                <div class="flex flex-col">
+                    <a href="#">FAQ</a>
+                    <a href="#">RETURNS</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="flex flex-col">
+                    <a href="#">TERMS & CONDITIONS</a>
+                    <a href="#">PRIVACY POLICY</a>
+                    <a href="#">COOKIE POLICY</a>
+                    <a href="#">COOKIE SETTINGS</a>
+                </div>
+                <div class="flex flex-col font-grotest">
+                    <a href="#">ABOUT SECOND CHANCE</a>
+                    <a href="#">CAREER</a>
+                    <a href="#">FACEBOOK</a>
+                    <a href="#">INSTAGRAM</a>
+                </div>
+            </div>
         </footer>
         <script
             type="module"
