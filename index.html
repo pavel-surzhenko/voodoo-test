@@ -31,7 +31,7 @@
         <title>VooDoo test</title>
     </head>
     <body class="flex flex-col min-h-screen">
-        <header class="border-b-black border-b mb-[100px] bg-LightSand">
+        <header class="border-b-black border-b bg-LightSand">
             <div class="py-[48px] px-[62px]">
                 <div class="flex justify-between">
                     <div class="flex gap-3 items-start text-5xl font-bold">
@@ -57,7 +57,9 @@
                 </div>
             </div>
         </header>
-        <main class="max-w-7xl bg-LightSand self-center w-full">
+        <main
+            class="max-w-7xl bg-LightSand self-center w-full pt-[100px] pb-[80px] flex-grow"
+        >
             <section
                 class="bg-black text-white p-6 flex justify-between gap-12 mb-12"
             >
@@ -79,12 +81,13 @@
                 </button>
             </section>
             <section>
-                <div></div>
+                <div
+                    id="list-container"
+                    class="grid grid-cols-4 gap-6"
+                ></div>
             </section>
         </main>
-        <footer
-            class="border-t border-black px-[120px] py-[84px] mt-auto bg-white"
-        >
+        <footer class="border-t border-black px-[120px] py-[84px] bg-white">
             <div class="flex gap-6 font-space font-bold text-sm">
                 <div class="flex-grow">
                     <img
