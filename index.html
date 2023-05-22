@@ -45,7 +45,11 @@
                     <div
                         class="font-grotest font-semibold text-xl flex gap-12 items-start"
                     >
-                        <button class="p-3 rounded-md">Abous us</button>
+                        <button
+                            class="p-3 rounded-md hover:bg-black hover:text-white duration-400"
+                        >
+                            Abous us
+                        </button>
                         <button class="bg-black text-white p-3 rounded-md">
                             Sign-up
                         </button>
@@ -53,8 +57,25 @@
                 </div>
             </div>
         </header>
-        <main class="max-w-7xl bg-background bg-LightSand flex-grow mx-auto">
-            main
+        <main class="max-w-7xl bg-LightSand self-center w-full">
+            <div class="bg-black text-white p-6 flex justify-between gap-12">
+                <div class="flex gap-1.5">
+                    <img
+                        src="/alert-circle.svg"
+                        alt=""
+                    />
+                    <span class="font-grotest font-bold">ALPHA</span>
+                </div>
+                <span class="flex-grow"
+                    >Important info regarding our service</span
+                >
+                <button>
+                    <img
+                        src="/chevron-down.svg"
+                        alt=""
+                    />
+                </button>
+            </div>
         </main>
         <footer
             class="border-t border-black px-[120px] py-[84px] mt-auto bg-white"
