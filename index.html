@@ -5,22 +5,62 @@
         <link
             rel="icon"
             type="image/svg+xml"
-            href="/vite.svg"
+            href="/Logomark.svg"
         />
         <link
             rel="stylesheet"
             href="/src/style.css"
         />
-
+        <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com"
+        />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
         <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
         />
         <title>VooDoo test</title>
     </head>
-    <body>
-        <div class="text-lg bg-black text-center">h122</div>
-        <p class="bg-blue-500">sffdgdfg</p>
+    <body class="flex flex-col min-h-screen">
+        <header class="border-b-black border-b mb-[100px]">
+            <div class="py-[48px] px-[62px]">
+                <div class="flex justify-between">
+                    <div class="flex gap-3 items-start text-5xl font-bold">
+                        <img
+                            src="/Logomark.svg"
+                            alt="logo"
+                            class="mt-2"
+                        />
+                        <span>VooDoo <br />Test</span>
+                    </div>
+                    <div
+                        class="font-grotest font-semibold text-xl flex gap-12 items-start"
+                    >
+                        <button class="p-3 rounded-md">Abous us</button>
+                        <button class="bg-black text-white p-3 rounded-md">
+                            Sign-up
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="max-w-7xl mx-auto">main</main>
+        <footer class="border-t border-black px-[120px] py-[84px] mt-auto">
+            <img
+                src="/Logomark.svg"
+                alt="logo"
+                class="w-20 h-20"
+            />
+        </footer>
         <script
             type="module"
             src="/src/main.ts"
