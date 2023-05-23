@@ -5,10 +5,11 @@ export function generateListHTML(data: IApiResponse) {
     data.products.forEach((item) => {
 
         html += `<div class="font-bold">
-                        <div class="mb-3">
+                        <div class="mb-3 border border-black">
                             <img
                                 src="${item.images[0].src}"
                                 alt="product"
+                                class="object-cover h-full w-full"
                             />
                         </div>
                         <div class="flex justify-between ">
