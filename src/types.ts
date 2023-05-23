@@ -4,7 +4,7 @@ export interface IProduct {
     handle: string
     id: number
     images: IImage[]
-    options: IOptions
+    options: IOptions[]
     product_type: string
     published_at: string
     tags: []
