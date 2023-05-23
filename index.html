@@ -65,7 +65,7 @@
             class="max-w-7xl self-center w-full pt-6 pb-20 lg:pt-24 lg:pb-20 flex-grow px-6"
         >
             <section
-                class="bg-black text-white p-6 flex justify-between gap-12 mb-12"
+                class="bg-black text-white p-6 flex justify-between gap-12"
             >
                 <div class="flex gap-1.5">
                     <img
@@ -79,14 +79,21 @@
                 ><span class="flex-grow text-sm sm:hidden"
                     >Important info
                 </span>
-                <button>
+                <button id="arrowBtn">
                     <img
                         src="/chevron-down.svg"
-                        alt=""
+                        alt="arrow"
+                        class="transition-transform"
                     />
                 </button>
             </section>
-            <section class="mb-12 lg:mb-24">
+            <section
+                id="hiddenInfo"
+                class="hidden p-4 bg-white border-x border-b border-black"
+            >
+                <div>This is very important information</div>
+            </section>
+            <section class="my-12 lg:mb-24">
                 <div
                     id="list-container"
                     class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-12 font-grotest font-bold text-sm lg:text-base max-w-[300px] sm:max-w-full mx-auto"

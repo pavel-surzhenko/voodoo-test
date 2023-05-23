@@ -14,8 +14,6 @@ export async function renderProductsLis() {
         }
 
         const cards: NodeListOf<Element> = document.querySelectorAll('#card')
-        console.log(cards);
-
         cards.forEach((card: Element) => card.addEventListener('click', handleClick))
 
     } catch (error) {
