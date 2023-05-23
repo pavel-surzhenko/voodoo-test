@@ -6,12 +6,12 @@
                                 class="object-cover h-full w-full"
                             />
                             <div class="text-xs rounded bg-black text-white p-2 absolute top-3 left-3">USED</div>
-                            <div class="px-4 py-6 text-white text-md hidden absolute inset-0 bg-black bg-opacity-80 rounded cursor-pointer">
+                            <div class="px-4 py-6 text-white text-md hidden absolute inset-0 bg-black bg-opacity-80 cursor-pointer">
                                 <h3 class="pb-2" >More info</h3>
                                 <div class="pb-2">Size: ${(n=r.options[0])==null?void 0:n.values}</div>
                                 <div class="pb-2">Colors: ${(e=r.options[1])!=null&&e.values?r.options[1].values:""}</div>
                                 <div>Element: ${(t=r.options[2])!=null&&t.values?r.options[2].values:""}</div>
-                                <span class="text-red-500 text-xl absolute top-2 right-2">&#10006;</span>
+                                <span class="text-red-500 absolute top-2 right-2"><img src="/xmark-solid.svg" alt="xmark" class="w-10 h-10"/></span>
                             </div>
                         </div>
                         <div class="flex justify-between ">
