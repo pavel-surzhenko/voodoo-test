@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link
+            rel="icon"
+            type="image/svg+xml"
+            href="/voodoo-test/Logomark.svg"
+        />
+        
+        <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com"
+        />
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@700&display=swap"
+            rel="stylesheet"
+        />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <title>VooDoo test</title>
+      <script type="module" crossorigin src="/voodoo-test/assets/index-5e6271ff.js"></script>
+      <link rel="stylesheet" href="/voodoo-test/assets/index-ed0c50a9.css">
+    </head>
+    <body class="flex flex-col min-h-screen bg-LightSand">
+        <header class="border-b-black border-b bg-LightSand">
+            <div class="p-6 lg:py-12 lg:px-16">
+                <div class="flex justify-between">
+                    <div
+                        class="flex gap-3 items-start text-md lg:text-5xl font-bold"
+                    >
+                        <img
+                            src="/voodoo-test/Logomark.svg"
+                            alt="logo"
+                            class="mt-2 w-6 h-6 lg:w-11 lg:h-11"
+                        />
+                        <span>VooDoo <br />Test</span>
+                    </div>
+                    <div
+                        class="font-grotest font-semibold text-sm lg:text-xl flex gap-4 lg:gap-12 items-start"
+                    >
+                        <button
+                            class="p-2 lg:p-3 rounded-md hover:bg-black hover:text-white duration-700"
+                        >
+                            Abous us
+                        </button>
+                        <button
+                            class="bg-black text-white p-3 rounded-md font-bold"
+                        >
+                            Sign-up
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main
+            class="max-w-7xl self-center w-full pt-6 pb-20 lg:pt-24 lg:pb-20 flex-grow px-6"
+        >
+            <section
+                class="bg-black text-white p-6 flex justify-between gap-12"
+            >
+                <div class="flex gap-1.5">
+                    <img
+                        src="/voodoo-test/alert-circle.svg"
+                        alt=""
+                    />
+                    <span class="font-grotest font-bold">ALPHA</span>
+                </div>
+                <span class="flex-grow text-base hidden sm:block"
+                    >Important info regarding our service</span
+                ><span class="flex-grow text-sm sm:hidden"
+                    >Important info
+                </span>
+                <button id="arrowBtn">
+                    <img
+                        src="/voodoo-test/chevron-down.svg"
+                        alt="arrow"
+                        class="transition-transform"
+                    />
+                </button>
+            </section>
+            <section
+                id="hiddenInfo"
+                class="hidden p-4 bg-white border-x border-b border-black"
+            >
+                <div>This is very important information</div>
+            </section>
+            <section class="my-12 lg:mb-24">
+                <div
+                    id="list-container"
+                    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-12 font-grotest font-bold text-sm lg:text-base max-w-[300px] sm:max-w-full mx-auto"
+                ></div>
+            </section>
+            <section>
+                <div class="flex flex-col justify-center items-center">
+                    <span class="pt-12 pb-6 font-grotest text-sm lg:text-xl"
+                        >Be the first one to know when we launch our beta!</span
+                    >
+                    <div class="flex gap-3 h-11 w-full justify-center">
+                        <input
+                            type="email"
+                            placeholder="E-mail"
+                            class="h-full rounded w-full lg:w-5/12 placeholder:text-black font-semibold px-3 focus:border focus: border-black focus:outline-none"
+                        />
+                        <button
+                            class="bg-orange-500 p-3 rounded whitespace-nowrap h-full leading-none"
+                        >
+                            Sign-up
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer
+            class="border-t border-black p-12 pr-11 lg:px-[120px] lg:py-[84px] bg-white"
+        >
+            <div
+                class="flex flex-col md:flex-row gap-12 md:gap-6 font-space font-bold text-sm"
+            >
+                <div class="flex-grow order-4 md:order-1">
+                    <img
+                        src="/voodoo-test/Logomark.svg"
+                        alt="logo"
+                        h
+                        class="w-20 h-20 mx-auto"
+                    />
+                </div>
+                <div class="flex flex-col flex-grow order-1">
+                    <a href="#">FAQ</a>
+                    <a href="#">RETURNS</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="flex flex-col flex-grow order-2">
+                    <a href="#">TERMS & CONDITIONS</a>
+                    <a href="#">PRIVACY POLICY</a>
+                    <a href="#">COOKIE POLICY</a>
+                    <a href="#">COOKIE SETTINGS</a>
+                </div>
+                <div class="flex flex-col font-grotest flex-grow order-3">
+                    <a href="#">ABOUT SECOND CHANCE</a>
+                    <a href="#">CAREER</a>
+                    <a href="#">FACEBOOK</a>
+                    <a href="#">INSTAGRAM</a>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+</html>
