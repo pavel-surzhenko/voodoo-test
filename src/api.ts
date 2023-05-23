@@ -1,8 +1,9 @@
 import { IApiResponse } from "./types";
+const API = 'https://voodoo-sandbox.myshopify.com/'
 
 export async function fetchProductsList(): Promise<IApiResponse> {
     try {
-        const response = await fetch('https://voodoo-sandbox.myshopify.com/products.json?limit=12')
+        const response = await fetch(`${API}products.json?limit=12`)
         const data = await response.json()
 
         return data as IApiResponse
