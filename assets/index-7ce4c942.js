@@ -11,7 +11,7 @@
                                 <div class="pb-2">Size: ${(n=r.options[0])==null?void 0:n.values}</div>
                                 <div class="pb-2">Colors: ${(e=r.options[1])!=null&&e.values?r.options[1].values:""}</div>
                                 <div>Element: ${(t=r.options[2])!=null&&t.values?r.options[2].values:""}</div>
-                                <span class="text-red-500 absolute top-2 right-2"><img src="/voodoo-test/xmark-solid.svg" alt="xmark" class="w-10 h-10"/></span>
+                                <span class="text-red-500 absolute top-2 right-2"><img src="/xmark-solid.svg" alt="xmark" class="w-10 h-10"/></span>
                             </div>
                         </div>
                         <div class="flex justify-between ">
